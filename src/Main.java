@@ -4,13 +4,19 @@ public class Main {
     public static void main(String[] args) {
         WhileLoopFun fun = new WhileLoopFun();
 
-        System.out.println("-- test countLetter --");
-        System.out.println(fun.countLetter("apple", "a"));
-        System.out.println(fun.countLetter("apple", "z"));
-        System.out.println(fun.countLetter("babababa", "a"));
-        System.out.println(fun.countLetter("babababa", "b"));
-        System.out.println(fun.countLetter("excellente", "e"));
-        System.out.println(fun.countLetter("rawrrrrrr", "r"));
+        System.out.println("-- test isPrime --");
+        System.out.println(fun.isPrime(2));
+        System.out.println(fun.isPrime(13));
+        System.out.println(fun.isPrime(773));
+        System.out.println(fun.isPrime(9857));
+        System.out.println(fun.isPrime(101879));
+        System.out.println(fun.isPrime(1));
+        System.out.println(fun.isPrime(14));
+        System.out.println(fun.isPrime(30));
+        System.out.println(fun.isPrime(771));
+        System.out.println(fun.isPrime(93243));
+
+
 
 
 
